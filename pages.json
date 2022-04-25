@@ -1,0 +1,258 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages":[ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/HOME/home",
+			"name":"home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path":"pages/USER/user",
+			"name":"user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path":"pages/PUBLISH/publish",
+			"name":"publish",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path":"pages/NEWS/news",
+			"name":"news",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path":"pages/FORUM/forum",
+			"name":"forum",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh":true
+			}
+		}
+	    ,{
+            "path" : "pages/USER/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地址",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path":"pages/USER/addAddress",
+			"name":"addAddress",
+			"style":{
+				 "navigationBarTitleText": "添加地址"
+			}
+		}
+        ,{
+            "path" : "pages/USER/editorAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/PUBLISH/rentout",
+			 "name":"rentout",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "出租",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/PUBLISH/seekpublish",
+			"name":"seekpublish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "求二手",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/PUBLISH/seekrentout",
+			"name":"seekrentout",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "求出租",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/HOME/select",
+			"name":"select",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/HOME/kinds",
+			"name":"kinds",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/HOME/detail",
+			"name":"detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/NEWS/talkwindows",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/USER/personalInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/USER/setup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/PUBLISH/management",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的发布",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/USER/personalHome",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人主页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/USER/recommendation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/USER/collected",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/USER/agreementlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "平台协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/FORUM/articleDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/FORUM/publishArticle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发表文章",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/PUBLISH/editProduct",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#E31D1C",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"custom":true,
+		"list": [
+			{
+				"pagePath":"pages/HOME/home",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/HOME/select",
+				"text":"搜索"
+			},
+			{
+				"pagePath":"pages/NEWS/news",
+				"text":"消息"
+			},
+			{
+				"pagePath":"pages/USER/user",
+				"text":"我的"
+				
+			}
+		]
+	}
+	
+	
+}
