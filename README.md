@@ -1,5 +1,6 @@
 # secondhand-shop-uniapp
-基于uniapp的微信小程序二手平台，二手交易，校园交易。物品二手交易，买卖在线聊天
+基于uniapp的微信小程序二手平台，二手交易，校园交易。物品二手交易，买卖在线聊天  
+后端地址: https://github.com/584276169/sheondHangMall-back.git
 # 更新日志  
 --看文档  
 
