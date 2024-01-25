@@ -44,7 +44,7 @@
             "path" : "pages/USER/address",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "地址",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -53,14 +53,14 @@
 			"path":"pages/USER/addAddress",
 			"name":"addAddress",
 			"style":{
-				 "navigationBarTitleText": "添加地址"
+				
 			}
 		}
         ,{
             "path" : "pages/USER/editorAddress",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "编辑地址",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -70,7 +70,7 @@
 			 "name":"rentout",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "出租",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -80,7 +80,7 @@
 			"name":"seekpublish",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "求二手",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -90,7 +90,7 @@
 			"name":"seekrentout",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "求出租",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -100,7 +100,7 @@
 			"name":"select",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "搜索",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -110,7 +110,7 @@
 			"name":"kinds",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "分类",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -120,7 +120,7 @@
 			"name":"detail",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "商品详情",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -138,7 +138,7 @@
             "path" : "pages/USER/personalInfo",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "我的信息",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -147,7 +147,7 @@
             "path" : "pages/USER/setup",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "设置",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -156,7 +156,7 @@
             "path" : "pages/PUBLISH/management",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "我的发布",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -165,7 +165,7 @@
             "path" : "pages/USER/personalHome",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "个人主页",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -183,7 +183,7 @@
             "path" : "pages/USER/collected",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "我的收藏",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -192,7 +192,7 @@
             "path" : "pages/USER/agreementlist",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "平台协议",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -239,8 +239,8 @@
 				"text":"首页"
 			},
 			{
-				"pagePath":"pages/HOME/select",
-				"text":"搜索"
+				"pagePath":"pages/FORUM/forum",
+				"text":"社区"
 			},
 			{
 				"pagePath":"pages/NEWS/news",
@@ -250,6 +250,16 @@
 				"pagePath":"pages/USER/user",
 				"text":"我的"
 				
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
 			}
 		]
 	}

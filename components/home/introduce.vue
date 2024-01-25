@@ -1,7 +1,7 @@
 <template>
 	<view class="containerBox introBox">
 		<view class="intro_title">
-			<text>跳跳二手·省心快卖</text>
+			<text>逛逛二手·省心快卖</text>
 		</view>
 		<view class="flex_around" style="margin-top: 15rpx;">
 			<view class="intro_product flex" v-for="(item,index) in recommend" :key="index" @click="GOdetail(item.id)">

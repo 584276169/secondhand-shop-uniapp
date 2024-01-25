@@ -85,13 +85,15 @@
 					}
 				})
 			}
+			this.GetProductList();
+			this.recommending();
 		},
 		beforeRouteLeave(to, from, next) {
 			// 导航离开该组件的对应路由时调用
 			// 可以访问组件实例 `this`
 			var that = this
 			let identify = uni.getStorageSync('OPENID')
-			if (identify||to.name==="select"||to.name==="kinds"||to.name==="detail"||to.name==="home"){
+			if (identify||to.name==="forum"||to.name==="select"||to.name==="kinds"||to.name==="detail"||to.name==="home"){
                      next()
 			} else {
 				that.$showModal({
@@ -216,9 +218,7 @@
 			}
 		},
 		mounted() {
-			this.GetProductList();
 			this.SwiperList();
-			this.recommending();
 		}
 	}
 </script>

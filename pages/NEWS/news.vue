@@ -14,7 +14,7 @@
 				</view>
 			</view>
 		</view>
-		<tabbar :tab="1"></tabbar>
+		<tabbar :tab="3"></tabbar>
 	</view>
 </template>
 

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "tabbar": "/components/Tabbar",
+    "pro-nav": "/components/user/product_nav",
+    "fun-nav": "/components/user/function"
+  }
+}

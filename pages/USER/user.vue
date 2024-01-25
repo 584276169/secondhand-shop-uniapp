@@ -11,7 +11,7 @@
 		</view>
 		<proNav v-if="showStock"></proNav>
 		<funNav></funNav>
-		<tabbar :tab="2"></tabbar>
+		<tabbar :tab="4"></tabbar>
 	</view>
 </template>
 

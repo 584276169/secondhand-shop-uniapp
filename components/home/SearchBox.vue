@@ -14,7 +14,7 @@
 		},
 		methods:{
 			Goselect:function(){
-				uni.switchTab({
+				uni.navigateTo({
 					url:'./select'
 				})
 			}

@@ -1,0 +1,147 @@
+{
+    "setting": {
+        "compileHotReLoad": true
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "发布",
+                    "pathName": "pages/PUBLISH/publish",
+                    "query": "id=0",
+                    "scene": null
+                },
+                {
+                    "name": "地址管理",
+                    "pathName": "pages/USER/address",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "添加地址",
+                    "pathName": "pages/USER/addAddress",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "出租",
+                    "pathName": "pages/PUBLISH/rentout",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "求二手",
+                    "pathName": "pages/PUBLISH/seekpublish",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "求租",
+                    "pathName": "pages/PUBLISH/seekrentout",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "搜索物品",
+                    "pathName": "pages/HOME/select",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "物品分类页面",
+                    "pathName": "pages/HOME/kinds",
+                    "query": "title=家具",
+                    "scene": null
+                },
+                {
+                    "name": "物品详情页面",
+                    "pathName": "pages/HOME/detail",
+                    "query": "id=59",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "聊天窗口",
+                    "pathName": "pages/NEWS/talkwindows",
+                    "query": "to_key=oklhI4-dOgn1udPKCHaRTlgfq6f01",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "消息中心",
+                    "pathName": "pages/NEWS/news",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "我的",
+                    "pathName": "pages/USER/user",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "个人信息",
+                    "pathName": "pages/USER/personalInfo",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "我发布的",
+                    "pathName": "pages/PUBLISH/management",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "个人首页",
+                    "pathName": "pages/USER/personalHome",
+                    "query": "openid=oklhI4-dOgn1udPKCHaRTlgfq6f0",
+                    "scene": null
+                },
+                {
+                    "name": "上推荐",
+                    "pathName": "pages/USER/recommendation",
+                    "query": "id=35",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "我的收藏",
+                    "pathName": "pages/USER/collected",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "社区首页",
+                    "pathName": "pages/FORUM/forum",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "文章详情",
+                    "pathName": "pages/FORUM/articleDetail",
+                    "query": "id=22",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "发表文章",
+                    "pathName": "pages/FORUM/publishArticle",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "商品编辑",
+                    "pathName": "pages/PUBLISH/editProduct",
+                    "query": "id=31",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "projectname": "SecondHandMall_before"
+}

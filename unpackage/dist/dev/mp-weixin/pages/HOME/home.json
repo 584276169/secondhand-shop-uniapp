@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "intro-box": "/components/home/introduce",
+    "tabbar": "/components/Tabbar",
+    "search-box": "/components/home/SearchBox",
+    "category": "/components/home/category",
+    "filter-box": "/components/home/filter"
+  }
+}

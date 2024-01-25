@@ -1,0 +1,1 @@
+<view class="container"><rich-text nodes="{{list}}"></rich-text></view>

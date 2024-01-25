@@ -14,63 +14,63 @@
 		data() {
 			return {
 				list: [{
-						title: '家具',
-						image:'/static/furniture.png',
+						title: '爱马仕',
+						image:'/static/icon1.png',
 						id:0,
 					},
 					{
-						title: '衣服',
-						image:'/static/clothes.png',
+						title: '香奈儿',
+						image:'/static/icon2.png',
 						id:1,
 					},
 					{
-						title: '鞋子',
-						image:'/static/shoes.png',
+						title: '菲拉格慕',
+						image:'/static/icon3.png',
 						id:2,
 					},
 					{
-						title: '书籍',
-						image:'/static/book.png',
+						title: '卡地亚',
+						image:'/static/icon4.png',
 						id:3,
 					},
 					{
-						title: '手机',
-						image:'/static/phone.png',
+						title: 'Coach',
+						image:'/static/icon5.png',
 						id:4,
 					},
 					{
-						title: '药品',
-						image:'/static/drugs.png',
+						title: 'Moschino',
+						image:'/static/icon6.png',
 						id:5,
 					},
 					{
-						title: '电子产品',
-						image:'/static/electronic.png',
+						title: 'Mulberry',
+						image:'/static/icon7.png',
 						id:6,
 					},
 					{
-						title: '运动',
-						image:'/static/sport.png',
+						title: 'Etro',
+						image:'/static/icon8.png',
 						id:7,
 					},
 					{
-						title: '美妆',
-						image:'/static/Beauty.png',
+						title: '蒂芙尼',
+						image:'/static/icon4.png',
 						id:8,
 					},
 					{
-						title: '厨具',
-						image:'/static/Kitchenware.png',
+						title: 'Blumarine',
+						image:'/static/icon3.png',
 						id:9,
 					},
 					{
-						title: '健身',
-						image:'/static/Bodybuilding.png',
+						title: 'Gucci',
+						image:'/static/icon8.png',
 						id:10,
 					},
 					{
-						title: '乐器',
-						image:'/static/Musical.png',
+						title: '梵克雅宝',
+						image:'/static/icon2.png',
 						id:11,
 					}
 				]

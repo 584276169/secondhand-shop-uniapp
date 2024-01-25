@@ -1,0 +1,1 @@
+<view class="content"><input type="text" value="" placeholder="找点什么" disabled="{{true}}" data-event-opts="{{[['tap',[['Goselect',['$event']]]]]}}" bindtap="__e"/></view>

@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/HOME/home",
+    "pages/USER/user",
+    "pages/PUBLISH/publish",
+    "pages/NEWS/news",
+    "pages/FORUM/forum",
+    "pages/USER/address",
+    "pages/USER/addAddress",
+    "pages/USER/editorAddress",
+    "pages/PUBLISH/rentout",
+    "pages/PUBLISH/seekpublish",
+    "pages/PUBLISH/seekrentout",
+    "pages/HOME/select",
+    "pages/HOME/kinds",
+    "pages/HOME/detail",
+    "pages/NEWS/talkwindows",
+    "pages/USER/personalInfo",
+    "pages/USER/setup",
+    "pages/PUBLISH/management",
+    "pages/USER/personalHome",
+    "pages/USER/recommendation",
+    "pages/USER/collected",
+    "pages/USER/agreementlist",
+    "pages/FORUM/articleDetail",
+    "pages/FORUM/publishArticle",
+    "pages/PUBLISH/editProduct"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#E31D1C",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/HOME/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/FORUM/forum",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/NEWS/news",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/USER/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "show-modal": "/components/login_tip",
+    "agreement": "/components/agreement",
+    "updatevalue": "/components/updateInfo"
+  }
+}

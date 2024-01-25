@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "消息",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "tabbar": "/components/Tabbar"
+  }
+}

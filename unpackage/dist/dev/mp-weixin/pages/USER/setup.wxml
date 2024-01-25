@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['signOut',['$event']]]]]}}" class="btn signout" bindtap="__e"><text>退出</text></view><show-modal vue-id="b1172958-1" bind:__l="__l"></show-modal></view>

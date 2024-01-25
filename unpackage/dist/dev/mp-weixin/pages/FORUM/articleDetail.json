@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "bottom-tap": "/components/forum/bottom_tap",
+    "article-item": "/components/forum/articleItem",
+    "review-list": "/components/forum/reviewList"
+  }
+}

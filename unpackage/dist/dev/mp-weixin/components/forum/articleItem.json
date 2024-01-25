@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-album": "/node-modules/uview-ui/components/u-album/u-album"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="filte_content"><view class="flex_around"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['Gotap',['$0'],[[['list','',index,'id']]]]]]]}}" class="{{[tap==index?'active':'']}}" bindtap="__e">{{''+item.title+''}}</view></block></view></view>

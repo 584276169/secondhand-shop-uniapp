@@ -2,18 +2,10 @@
 	<view class="content">
 	<view class="tabbar" >
 	<view class="" style="position: relative;">
-		<view class="tabbar_content">
-			<view class="tabbar_item"  @click="changeTab(0)">
-				<image :src="tab==0?'/static/home_active.png':'/static/home.png'" mode="widthFix"></image>
-				<text :class="tab==0?'active':''">跳跳</text>
-			</view>
-			<view class="tabbar_item"  @click="changeTab(1)">
-				<image :src="tab==1?'/static/message_active.png':'/static/message.png'" mode="widthFix"></image>
-				<text :class="tab==1?'active':''">消息</text>
-			</view>
-			<view class="tabbar_item"  @click="changeTab(2)">
-				<image :src="tab==2?'/static/user_active.png':'/static/user.png'" mode="widthFix"></image>
-				<text :class="tab==2?'active':''">我的</text>
+		<view class="" style="display: flex;align-items: center;height: 100%;justify-content: space-between;">
+			<view class="tabbar_item" v-for="(item,index) in list" :key="index" @click="changeTab(index,item.pagePath)">
+				<image :src="tab==index?item.selectedIconPath:item.iconPath" mode="widthFix"></image>
+				<text :class="tab==index?'active':''">{{item.text}}</text>
 			</view>
 		</view>
 		<!--发布图标-->
@@ -57,20 +49,30 @@
 						pagePath: "/pages/HOME/home",
 						iconPath:"/static/home.png",
 						selectedIconPath:"/static/home_active.png",
-						text: "跳跳"
+						text: "逛逛"
 					},
+					{
+							pagePath: "/pages/Forum/forum",
+							iconPath:"/static/forum.png",
+							selectedIconPath:"/static/forum_active.png",
+							text: "社区"
+						},
+					{
+							pagePath: "/",
+							text: "发布"
+						},
 						{
 								pagePath: "/pages/NEWS/news",
 								iconPath:"/static/message.png",
 								selectedIconPath:"/static/message_active.png",
 								text: "消息"
 							},
-							{
-									pagePath: "/pages/USER/user",
-									iconPath:"/static/user.png",
-									selectedIconPath:"/static/user_active.png",
-									text: "我的"
-								},
+					{
+							pagePath: "/pages/USER/user",
+							iconPath:"/static/user.png",
+							selectedIconPath:"/static/user_active.png",
+							text: "我的"
+						},
 				],
 				
 			};
@@ -81,13 +83,9 @@
 		 }
 		},
 			methods:{
-			changeTab:function(index){
-				this.list.forEach((i,j)=>{
-					if(j==index){
-						uni.switchTab({
-							url:i.pagePath
-						})
-					}
+			changeTab:function(index,url){
+				uni.switchTab({
+					url:url
 				})
 				this.showpub=false
 			},
@@ -140,19 +138,10 @@
 		box-shadow:0 0 10rpx;
 		
 	}
-	.tabbar_content{
-		height: 100%;
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		view:nth-child(1){
-			position: absolute;
-			left: 100rpx;
-		}
-	}
 	.tabbar_item{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 		width: 130rpx;
 	}
@@ -199,7 +188,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
 		width: 150rpx;
 		font-size: $uni-font-size-h2;
 	}

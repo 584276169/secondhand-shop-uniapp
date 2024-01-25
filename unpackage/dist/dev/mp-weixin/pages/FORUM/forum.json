@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "社区",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-album": "/node-modules/uview-ui/components/u-album/u-album",
+    "tabbar": "/components/Tabbar"
+  }
+}

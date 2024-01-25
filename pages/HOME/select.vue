@@ -44,7 +44,6 @@
 	</view>
 </template>
 <script>
-	import tabbar from "../../components/Tabbar.vue";
 	export default {
 		data() {
 			return {
@@ -54,9 +53,6 @@
 				totalnum:'',
 				list:[],
 			};
-		},
-		components: {
-			tabbar
 		},
 		onLoad(options) {
 			
